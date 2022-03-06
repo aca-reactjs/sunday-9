@@ -1,0 +1,28 @@
+.screen {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.slider-wrapper {
+  display: flex;
+}
+
+.slider-item {
+  min-width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.slider-control {
+  flex: 1;
+}
